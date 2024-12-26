@@ -1,0 +1,1 @@
+This example demonstrates a common error in Rust: accessing an element in a vector using an index that is out of bounds.  The `vec[index]` operation will panic if `index` is greater than or equal to the length of the vector. This README explains the error and provides a solution using safe indexing practices.
